@@ -1,0 +1,16 @@
+import LegalLayout from "../components/LegalLayout";
+export default function ContentPolicy(){
+  return <LegalLayout title="Política de Conteúdo" updated="22 de setembro de 2026">
+    <h2>1. Princípio</h2><p>A MartFun está sendo desenvolvida como uma plataforma generalista para creators. A futura operação poderá receber conteúdos de lifestyle, influenciadores, modelos, fitness, moda e beleza, entretenimento, música, games, educação, conteúdo sensual e conteúdo adulto legal.</p>
+    <h2>2. Conteúdo destinado a maiores de 18 anos</h2><p>Conteúdos classificados como adultos serão destinados exclusivamente a maiores de 18 anos e poderão estar sujeitos a verificação de identidade, verificação de idade, classificação de conteúdo, restrições de acesso, mecanismos adicionais de consentimento, revisão e moderação.</p>
+    <h2>3. Consentimento</h2><p>Todo participante identificável em conteúdo íntimo, sensual ou sexual deverá ser maior de 18 anos, ter participado voluntariamente, ter autorizado a produção e utilização do material e possuir documentação verificável quando exigida pela plataforma.</p>
+    <h2>4. Conteúdos terminantemente proibidos</h2>
+    <ul><li>crianças ou adolescentes em contexto sexual;</li><li>pessoas que aparentem ser menores em representação sexual;</li><li>exploração sexual infantil;</li><li>abuso sexual;</li><li>estupro ou violência sexual real;</li><li>conteúdo íntimo não consensual;</li><li>publicação de nudez ou atividade sexual sem consentimento;</li><li>tráfico ou exploração de pessoas;</li><li>coerção ou extorsão sexual;</li><li>material obtido de forma clandestina;</li><li>falsificação de consentimento;</li><li>conteúdo ilegal;</li><li>incentivo ou instrução para crimes;</li><li>violação de direitos autorais;</li><li>fraude ou falsidade documental.</li></ul>
+    <h2>5. Conteúdo produzido por inteligência artificial</h2><p>Conteúdo gerado ou alterado por IA poderá ser submetido a regras específicas. Será proibido utilizar IA para criar ou manipular conteúdo sexual envolvendo menores, pessoas reais sem consentimento, situações ilegais ou falsificação destinada a prejudicar terceiros.</p>
+    <h2>6. Direitos autorais e direito de imagem</h2><p>Creators deverão possuir autorização e direitos suficientes para publicar e monetizar o conteúdo enviado.</p>
+    <h2>7. Moderação</h2><p>A MartFun pretende utilizar combinação de controles automatizados, revisão humana, denúncias de usuários, análise documental e monitoramento de risco.</p>
+    <h2>8. Medidas de enforcement</h2><p>Conforme a gravidade, a MartFun poderá aplicar aviso, remoção de conteúdo, restrição de funcionalidades, suspensão, bloqueio de monetização, retenção preventiva de valores quando juridicamente e contratualmente aplicável, encerramento de conta, preservação de evidências e comunicação às autoridades competentes.</p>
+    <h2>9. Solicitação de revisão</h2><p>Creators poderão ter canal para contestar determinadas decisões de moderação, conforme os procedimentos futuros da plataforma.</p>
+    <h2>10. Cooperação</h2><p>A MartFun poderá cooperar com autoridades e titulares de direitos quando exigido por lei ou necessário para proteção de pessoas.</p>
+  </LegalLayout>
+}
